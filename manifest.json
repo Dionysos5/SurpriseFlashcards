@@ -1,0 +1,17 @@
+{
+  "manifest_version": 2,
+  "name": "Surprise Flashcards",
+  "description": "Chrome extension flashcards for studying while browsing",
+  "version": "0.1",
+  "browser_action": {
+    "default_icon": "tab-icon.png",
+    "default_title": "Surprise Flashcards",
+    "default_action": {
+      "default_popup": "popup.html"
+    }
+  },
+  "chrome_url_overrides": {
+    "newtab": "newtab.html"
+  },
+  "permissions": ["activeTab"]
+}
