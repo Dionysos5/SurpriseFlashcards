@@ -34,3 +34,9 @@ body {
   font-size: 5rem;
   text-shadow: black 0px 1px 2px;
 } */
+
+/* // "browser_action": {
+  //   "default_icon": "tab-icon.png",
+  //   "default_title": "Surprise Flashcards",
+  //   "default_popup": "popup.html"
+  // }, */
